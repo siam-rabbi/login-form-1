@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #642d38;
+}
+.wraper{
+    width: 400px;
+    background: #fff;
+    border-radius: 5px;
+    height: 350px;
+    
+}
+.wraper .title{
+    line-height: 80px;
+    background: #be4860;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.wraper form{
+    padding: 30px 20px 25px 20px;
+}
+.wraper form .row{
+    height: 45px ;
+    background: rgb(250, 242, 227);
+    margin-bottom: 15px;
+    position: relative;
+}
+.wraper form .row input[type=text],
+.wraper form .row input[type=password]{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 16px ;
+}
+.wraper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    font-size: 18px;
+    background: #be4860;
+    color: #fff;
+    border: 1px solid #be4860;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+}
+.button input {
+    margin-left: 0px;
+    background: #be4860;
+    color: #fff;
+    border: 1px solid #be4860;
+    cursor: pointer;
+
+
+}
+.button input[value=Login] {
+    padding-left: 0;
+    height: 100%;
+    width: 100%;
+    
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 18px ;
+    
+}
+.button input:hover{
+    background: #642d38;
+}
+.pass{
+    text-align: center;
+    margin-top: 10px;
+    
+ 
+}
+.pass a{
+ text-decoration: none;
+ 
+ font-size: 18px;
+  color: #be4860;
+  font-weight: 500;
+}
